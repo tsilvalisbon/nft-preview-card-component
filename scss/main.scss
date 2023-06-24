@@ -1,0 +1,152 @@
+@import 'config';
+
+body{
+    background-color: $neutral-main-bg;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $neutral-card-bg;
+    border-radius: 0.725rem;
+    width: 350px;
+    height: 575px;
+    padding: 20px;
+}
+
+.overlay{
+    display: flex;
+}
+
+.logo{
+    max-width: 100%;
+    height: 325px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.overlay:hover{
+    background-color: $primary-cyan;
+    border-radius: 5%;
+}
+
+.overlay:hover .logo{
+    opacity: 0.4;
+
+}
+
+.eye-icon {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+    color: $white;
+    font-size: 20px;
+    align-self: flex-start;
+    
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: $primary-cyan;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+
+}
+
+.crypto-days {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+    
+
+}
+
+.left-side{
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.eth{
+    color: $primary-cyan;
+}
+
+.left-side , .right-side {
+    display: flex;
+}
+
+.right-side {
+    gap: 5px;
+}
+
+.days-left {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.line {
+    display: flex;
+    margin-top: 15px;
+    border-top: 2px solid $neutral-line;
+    padding-top: 15px;
+    column-gap: 25px;
+    width: 100%;
+    align-items: center;
+
+    p{
+        color: rgba(255, 255, 255, 0.5);
+        white-space: nowrap;
+    }
+
+    .name{
+        color: $white;
+        cursor: pointer;
+    }
+
+    .name:hover{
+        color: $primary-cyan;
+    }
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+
+.attribution {
+     font-size: 15px; 
+     text-align: center; 
+     margin-top: -150px;
+     color: $primary-cyan;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
