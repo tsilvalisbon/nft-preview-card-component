@@ -15,6 +15,7 @@ This is a solution to the NFT Preview Card Component challenge on Frontend Mento
 ### What I learned
 
 - Learned about positioning SVGs in images
+- Practiced my SCSS
 
 ### Useful resources
 
