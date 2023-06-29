@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .card {
@@ -58,7 +58,7 @@ body {
 
 .eye-icon {
   left: 50%;
-  top: 40%;
+  top: 35%;
   transform: translate(-50%, -50%);
   position: absolute;
   z-index: 1;
@@ -148,7 +148,6 @@ body {
 .attribution {
   font-size: 15px;
   text-align: center;
-  margin-top: -150px;
   color: hsl(178, 100%, 50%);
 }
 
